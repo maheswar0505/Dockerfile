@@ -14,3 +14,250 @@ RUN tar -xvzf apache-tomcat-8.5.3.tar.gz
 CMD ["/opt/apache-tomcat-8.5.3/bin/catalina.sh","run"]
 RUN cp -r  /opt/hello-world/webapp/target /opt/apache-tomcat-8.5.3/webapps
 
+
+
+
+
+
+
+
+
+
+Reference commands for writting these 
+
+ docker ps
+    2  docker images
+    3  docker ls
+    4  docker ps
+    5  docker exec -it 190c3e886047 /bin/bash/
+    6  docker exec -it 190c3e886047 /bin/bash
+    7  sh startup.sh
+    8  yum install docker
+    9  nano Dockerfile
+   10  docker build Dockerfile
+   11  docker build -t Dockerfile
+   12  docker build -t my-app /root/Dockerfile
+   13  docker build -t my-app /root/Dockerfile/
+   14  docker build -t my-app /root/Dockerfile
+   15  ls
+   16  mkdir gova
+   17  cd gova
+   18  cp /root/Dockerfile
+   19  cp /root/Dockerfile  /root/gova/.
+   20  ls
+   21  cd..
+   22  cd ..
+   23  docker build -t my-app /root/gova/Dockerfile
+   24  docker build -t my-app /root/gova/*
+   25  docker build -t /root/gova/Dockerfile
+   26  docker build --help
+   27  docker build .
+   28  cd gov
+   29  cd gova
+   30  docker build -t my-app:1.0 .
+   31  sudo docker build -t my-app:1.0 .
+   32  cd ..
+   33  systemctl start docker
+   34  sudo docker build -t my-app:1.0 .
+   35  nano Dockerfile
+   36  sudo docker build -t my-app:1.0 .
+   37  nano Dockerfile
+   38  sudo docker build -t my-app:1.0 .
+   39  nano Dockerfile
+   40  sudo docker build -t my-app:1.0 .
+   41  nano Dockerfile
+   42  sudo docker build -t my-app:1.0 .
+   43  nano Dockerfile
+   44  sudo docker build -t my-app:1.0 .
+   45  nano Dockerfile
+   46  sudo docker build -t my-app:1.0 .
+   47  nano Dockerfile
+   48  sudo docker build -t my-app:1.0 .
+   49  nano Dockerfile
+   50  sudo docker build -t my-app:1.0 .
+   51  nano Dockerfile
+   52  sudo docker build -t my-app:1.0 .
+   53  nano Dockerfile
+   54  sudo docker build -t my-app:1.0 .
+   55  nano Dockerfile
+   56  sudo docker build -t my-app:1.0 .
+   57  nano Dockerfile
+   58  sudo docker build -t my-app:1.0 .
+   59  nano Dockerfile
+   60  sudo docker build -t my-app:1.0 .
+   61  nano Dockerfile
+   62  sudo docker build -t my-app:1.0 .
+   63  vi Dockerfile
+   64  sudo docker build -t my-app:1.0 .
+   65  vi Dockerfile
+   66  sudo docker build -t my-app:1.0 .
+   67  vi Dockerfile
+   68  sudo docker build -t my-app:1.0 .
+   69  vi Dockerfile
+   70  sudo docker build -t my-app:1.0 .
+   71  git clone https://github.com/surya5577/hello-world.git
+   72  yum install git -y
+   73  git clone https://github.com/surya5577/hello-world.git
+   74  cd hello-world/
+   75  ls
+   76  cd webapp/
+   77  ls
+   78  pwd
+   79  cd
+   80  vi Dockerfile
+   81  sudo docker build -t my-app:1.0 .
+   82  vi Dockerfile
+   83  sudo docker build -t my-app:1.0 .
+   84  vi Dockerfile
+   85  sudo docker build -t my-app:1.0 .
+   86  vi Dockerfile
+   87  sudo docker build -t my-app:1.0 .
+   88  vi Dockerfile
+   89  sudo docker build -t my-app:1.0 .
+   90  vi Dockerfile
+   91  sudo docker build -t my-app:1.0 .
+   92  vi Dockerfile
+   93  sudo docker build -t my-app:1.0 .
+   94  vi Dockerfile
+   95  wget https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.3/
+   96  ls
+   97  vi Dockerfile
+   98  sudo docker build -t my-app:1.0 .
+   99  vi Dockerfile
+  100  sudo docker build -t my-app:1.0 .
+  101  vi Dockerfile
+  102  sudo docker build -t my-app:1.0 .
+  103  vi Dockerfile
+  104  nano Dockerfile
+  105  sudo docker build -t my-app:1.0 .
+  106  docker image ls
+  107  sudo docker build -t my-app:1.0 .
+  108  docker image ls
+  109  nano Dockerfile
+  110  sudo docker build -t my-app:1.0 .
+  111  nano Dockerfile
+  112  sudo docker build -t my-app:1.0 .
+  113  nano Dockerfile
+  114  sudo docker build -t my-app:1.0 .
+  115  nano Dockerfile
+  116  sudo docker build -t my-app:1.0 .
+  117  nano Dockerfile
+  118  sudo docker build -t my-app:1.0 .
+  119  nano Dockerfile
+  120  sudo docker build -t my-app:1.0 .
+  121  docker  images
+  122  nano Dockerfile
+  123  docker run my-app
+  124  docker login
+  125  docker run 374264a6c176
+  126  docker
+  127  docker ps
+  128  docker immages
+  129  docker images
+  130  docker ps -a
+  131  docker run 190c3e886047
+  132  docker run -it 190c3e886047
+  133  docker run 374264a6c176
+  134  docker images
+  135  docker rmi -f $(docker images -aq)
+  136  docker rm -f $(docker ps -aq)
+  137  docker ps -a
+  138  docker images
+  139  docker build -t app .
+  140  docker images
+  141  docker run -it 0a2cb34dfc8f
+  142  clear
+  143  docker images
+  144  docker ps
+  145  docker run -it -d --name tom1 -p 8080:8080 app
+  146  docker ps
+  147  docker exec -it 931302892be5 /bin/bash
+  148  sh startup.sh
+  149  ls
+  150  docker ps
+  151  docker ps -a
+  152  docker start 931302892be5
+  153  docker ps
+  154  docker exec -it 931302892be5 /bin/bash
+  155  ls
+  156  docker ps
+  157  docker ps -a
+  158  docker start 931302892be5
+  159  docker ps
+  160  docker exec -it 931302892be5 /bin/bash
+  161  docker ps
+  162  docker restart 931302892be5
+  163  docker ps
+  164  vi Dockerfile
+  165  docker build -t app
+  166  docker build -t app .
+  167  docker ps
+  168  docker images
+  169  docker run -it -p 8081:8080 app
+  170  docker images
+  171  vi Dockerfile
+  172  docker build -t app3 .
+  173  docker run -it -d --name tom3 -p8085:8080 app3
+  174  docker ps
+  175  history
+  176  docker ps
+  177  docker exec -it 7b01c6780344 /bin/bash
+  178  docker ps
+  179  docker exec -it 7b01c6780344 /bin/bash
+  180  sh  startup.sh
+  181  docker ps
+  182  docker ps -a
+  183  docker run -it 7b01c6780344
+  184  docker start 7b01c6780344
+  185  docker images
+  186  docker run -it -d --name app4
+  187  docker run -it -d app3 --name tom4
+  188  docker run -it -d --name tom4 -p 8081:8080 app3
+  189  docker ps
+  190  docker stop 7b01c6780344
+  191  docker ps
+  192  docker exec -it 4b3a48e55273 /bin/bash
+  193  docker rmi -f$(docker images -aq)
+  194  docker immages
+  195  docker images
+  196  docker rmi -f $(docker images -aq)
+  197  docker images
+  198  exit
+  199  docker rm -f $(docker ps -aq)
+  200  docker images
+  201  vi Dockerfile
+  202  docker build -t tommy
+  203  docker build -t tommy .
+  204  docker immages
+  205  docker images
+  206  docker run -it -d --name mummy1 -p 8084:8080 tommy
+  207  docker ps
+  208  docker exec -t b7aedc415bd3 /bin/bash
+  209  docker exec -it b7aedc415bd3 /bin/bash
+  210  ls
+  211  docker ps
+  212  docker images
+  213  docker run -it -d --name mummy1 -p 8086:8080 tommy
+  214  docker ps -a
+  215  docker restart b7aedc415bd3
+  216  docker ps
+  217  cat Dockerfile
+  218  docker images
+  219  docker rm470716216b28
+  220  docker rm 470716216b28
+  221  docker rm 0a2cb34dfc8f
+  222   docker rm 300e315adb2f
+  223  docker imamges
+  224  docker images
+  225  docker ps
+  226  docker exec -it b7aedc415bd3 /bin/bash
+  227  docker ps -a
+  228  docker start b7aedc415bd3
+  229  docker ps
+  230  docker commit b7aedc415bd3 newapache
+  231  docker images
+  232  docker login
+  233  docker tag newapache chandra635313/apachegova
+  234  docker push
+  235  docker push chandra635313/apachegova
+  236  history
